@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <element name="x-phfooter" constructor="PhotoHunterFooter" extends="footer">
+      <style type="text/css">
+         .div-class-phfooter{
+          text-align: center;
+          height: 30px;
+          width: 100%;
+          padding: 20px 0px 0px;
+          background-color: #828282;
+        }
+        .img-class-footer{
+          vertical-align: middle
+        }
+      </style>
+      <template>
+         <div class="div-class-phfooter">
+            Powered by 
+              <a href="http://angularjs.org/" target="_blank">
+                <img class="img-class-footer" src="../images/AngularJS-small.png"/>
+              </a>
+              <span>&copy PhotoHunter.org</span>
+         </div>
+      </template>
+      <script type="application/dart" src="xphfooter.dart"></script>
+    </element>
+  </body>
+</html>
